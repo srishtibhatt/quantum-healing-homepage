@@ -1,0 +1,97 @@
+.contact-section {
+  min-height: 600px;
+  margin-top: 150px;
+  padding-bottom: 120px; 
+  background: radial-gradient(
+    ellipse at top,
+    rgba(9, 175, 155, 0.25),
+    #050505 65%
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* TITLE */
+.contact-title {
+  margin-top: 48px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+/* CARD */
+.contact-card {
+  width: 348px;
+  height: 400px;
+  margin-top: 32px;
+margin-bottom: 80px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.02)
+  );
+
+  border-radius: 20px;
+  padding: 32px;
+
+  box-shadow:
+    inset 0 0 40px rgba(9, 175, 155, 0.15),
+    0 20px 60px rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* SUBTITLE */
+.contact-subtitle {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.6%;
+}
+
+/* INPUTS */
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  height: 48px;
+
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(9, 175, 155, 0.8);
+  border-radius: 10px;
+
+  padding: 0 16px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.contact-card textarea {
+  height: 80px;
+  padding-top: 12px;
+  resize: none;
+}
+
+.contact-card input::placeholder,
+.contact-card textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* BUTTON */
+.primary-btn.full-width {
+  width: 100%;
+  height: 52px;
+
+  background: #09AF9B;
+  border-radius: 12px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer {
+  margin-top: 40px;
+}

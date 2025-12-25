@@ -1,0 +1,10 @@
+:root {
+  --bg-dark: #050505;
+  --card-bg: #0f1117;
+  --primary: #00e5c1;
+  --text-main: #ffffff;
+  --text-muted: #b3b3b3;
+  --border-soft: rgba(255,255,255,0.08);
+
+  --font-main: 'Inter', sans-serif;
+}

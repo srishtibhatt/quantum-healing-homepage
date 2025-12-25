@@ -1,0 +1,92 @@
+
+.testimonial-text-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;                 /* SPACE between image & text */
+}
+.testimonials-section {
+  margin-bottom: 96px;
+}
+
+.testimonial-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* IMPORTANT: remove default p margin */
+.testimonial-text {
+  margin: 0;                 /* 🔥 THIS fixes the sticking issue */
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* TESTIMONIALS SECTION */
+.testimonials-section {
+  width: 1081px;
+  margin-left: 180px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* HEADER */
+.testimonials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.testimonials-header h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.view-all {
+  font-size: 14px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* ROW */
+.testimonials-row {
+  display: flex;
+  gap: 32px;
+}
+
+/* CARD */
+.testimonial-card {
+  flex: 1;
+  height: 274px;
+
+  padding: 24px;
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+/* FOOTER */
+.testimonial-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.testimonial-footer strong {
+  font-size: 16px;
+}
+
+.testimonial-footer span {
+  font-size: 13px;
+  opacity: 0.7;
+}

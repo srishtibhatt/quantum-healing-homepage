@@ -1,0 +1,92 @@
+.founders-tagline {
+  width: 861px;
+  height: 48px;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+  text-align: center;
+
+  margin: 0 auto 32px; 
+}
+
+.founders-outer {
+  width: 861px;
+  height: 609px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  margin-left: 290px; 
+  margin-bottom: 300px;
+}
+
+/* PROFILES */
+.founders-profiles {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.founder {
+  width: 255px;
+  text-align: center;
+}
+
+.founder img {
+  width: 255px;
+  height: 255px;
+  border-radius: 300px;
+  object-fit: cover;
+}
+
+.founder-name {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.founder-role {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.founders-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  text-align: center;
+}
+
+.founders-content h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+/* CTA STRIP */
+.founders-cta {
+  width: 744px;
+  height: 110px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 32px;
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.founders-cta h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
